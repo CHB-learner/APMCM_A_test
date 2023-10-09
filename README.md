@@ -2,6 +2,31 @@
 数据:
 链接：https://pan.baidu.com/s/1v96SIvZMe1Bl68g6gnpfdA 
 
+# 序 列 图 像 的 特 征 提 取 与 建 模 分 析结 晶 器 助 熔 剂 熔 化 与 结 晶
+
+## Q1:提取左上角的文字信息，生成excel表格和对应的图像：
+
+**图像：**
+
+![image-20231009205154797](C:\Users\93085\AppData\Roaming\Typora\typora-user-images\image-20231009205154797.png)
+
+## Q2：
+
+* 首先对于给定的留个图像，用$segment\  anything$模型进行了轮廓的分割。
+  减少在提取特征的时候环境因素的影响。
+
+  **分割前：**![d](C:\Users\93085\Desktop\Q2\Q2\png\d.png)
+  **分割后：**
+
+![d](C:\Users\93085\Desktop\Q2\Q2\detect\rectangle\d.jpg)
+
+* 对于提取轮廓之后的图片，提取了其中的$RGB、HSV$特征。
+  得到$excel$表：
+  ![image-20231009205638467](C:\Users\93085\AppData\Roaming\Typora\typora-user-images\image-20231009205638467.png)
+  **生成变化函数图像：**
+
+  ![image-20231009205715295](C:\Users\93085\AppData\Roaming\Typora\typora-user-images\image-20231009205715295.png)
+
 
 提取码：80m0 
 
